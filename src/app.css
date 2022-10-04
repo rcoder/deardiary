@@ -1,0 +1,21 @@
+:root {
+    --bg-dark: #111;
+    --bg-light: #eee;
+    --txt-light: #ddd;
+    --txt-dark: #222;
+    --txt-size-base: 12pt;
+    --txt-font-default: monospace;
+    --toolbar-width: 10rem;
+    --toolbar-height: 10rem;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="submit"],
+button,
+select {
+    font-family: var(--txt-font-default);
+    padding: 0.25rem;
+    border: 1px solid #fff;
+    -webkit-appearance: none;
+}
